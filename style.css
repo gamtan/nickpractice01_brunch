@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.font {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.header {
+  background-color: rgba(10, 170, 225, 1);
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+.gap {
+  height: 30px;
+  width: auto;
+}
+.menubox {
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 30px;
+  width: 30px;
+  margin-left: 30px;
+  display: inline-block;
+}
+.homeicon {
+  height: 30px;
+  width: 60px;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 35px;
+  font-family: 'Great Vibes', cursive;
+  color: rgba(0, 0, 0, 0.85);
+}
+.loginbtn {
+  height: 30px;
+  width: auto;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 5px 8px 5px;
+  position: absolute;
+  right: 70px;
+  font-size: 12px;
+  font-weight: 100;
+}
+.searchicon {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  opacity: 0.9;
+}
+.brunchslogan01 {
+  font-size: 40px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.8);
+  margin: 10px 0px 6px 160px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 300;
+}
+.circlelogo {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.85);
+  border-radius: 11px;
+  display: inline-block;
+}
+.brunchslogan02 {
+  font-size: 32px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.15);
+  margin: 0px 0px 10px 160px;
+  line-height: 45px;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+.notice{
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  color: #00c3bd;
+  position: absolute;
+  left: 820px;
+  font-family: 'Nanum Myeongjo', serif;
+  margin-top: 2px;
+}
+.noticetext {
+  font-size: 12px;
+  font-weight: 100;
+  color: #959595;
+  position: absolute;
+  left: 865px;
+}
